@@ -3,70 +3,70 @@
     ** Generic Mod Config Menu UI
     *********/
     // main options
-    "config.title.main-options": "Main options",
-    "config.enabled.name": "Enabled",
-    "config.enabled.desc": "Whether to enable Automate features. If this is disabled, no machines will be automated and the overlay won't appear.",
-    "config.automation-interval.name": "Automation interval",
-    "config.automation-interval.desc": "The number of ticks between each automation process (60 for once per second, 120 for every two seconds, etc).",
-    "config.min-minutes-for-fairy-dust.name": "Min minutes for fairy dust",
-    "config.min-minutes-for-fairy-dust.desc": "The minimum machine processing time in minutes for which to apply fairy dust. For example, setting this to 30 minutes means fairy dust won't be applied if the machine would finish in 20 minutes without it.",
-    "config.toggle-overlay-key.name": "Toggle overlay key",
-    "config.toggle-overlay-key.desc": "The keys which toggle the automation overlay.",
-    "config.warn-for-missing-bridge-mod.name": "Warn for missing bridge mod",
-    "config.warn-for-missing-bridge-mod.desc": "Whether to log a warning on startup if you installed a custom-machine mod that requires a separate compatibility patch which isn't installed.",
+    "config.title.main-options": "Opsi utama",
+    "config.enabled.name": "Diaktifkan",
+    "config.enabled.desc": "Apakah fitur Automate diaktifkan. Jika dinonaktifkan, tidak ada mesin yang akan diotomatisasi dan overlay tidak akan muncul.",
+    "config.automation-interval.name": "Interval otomatisasi",
+    "config.automation-interval.desc": "Jumlah tick di antara setiap proses otomatisasi (60 untuk sekali per detik, 120 untuk setiap dua detik, dst).",
+    "config.min-minutes-for-fairy-dust.name": "Menit minimum untuk debu fairy",
+    "config.min-minutes-for-fairy-dust.desc": "Waktu pemrosesan mesin minimum dalam menit untuk mengaplikasikan debu fairy. Misalnya, jika diatur ke 30 menit, debu fairy tidak akan diaplikasikan jika mesin selesai dalam 20 menit tanpa debu tersebut.",
+    "config.toggle-overlay-key.name": "Tombol untuk mengaktifkan/menonaktifkan overlay",
+    "config.toggle-overlay-key.desc": "Tombol yang digunakan untuk mengaktifkan atau menonaktifkan overlay otomatisasi.",
+    "config.warn-for-missing-bridge-mod.name": "Peringatkan jika mod penghubung tidak ada",
+    "config.warn-for-missing-bridge-mod.desc": "Apakah peringatan log saat memulai jika Anda memasang mod mesin khusus yang memerlukan patch kompatibilitas terpisah yang belum terinstal.",
 
     // connectors
-    "config.title.connectors": "Enabled connectors",
-    "config.connector.desc": "Whether {{itemName}} links machines and chests together.",
-    "config.custom-connectors.name": "Custom connectors",
-    "config.custom-connectors.desc": "The items which connect adjacent machines together. You can specify either the internal English name (like \"Wood Path\") or qualified item ID (like \"(O)405\"), and list multiple items with commas.", // note: connector names must be English even when playing in other languages
+    "config.title.connectors": "Penghubung yang diaktifkan",
+    "config.connector.desc": "Apakah {{itemName}} menghubungkan mesin dan peti.",
+    "config.custom-connectors.name": "Penghubung khusus",
+    "config.custom-connectors.desc": "Item yang menghubungkan mesin yang berdekatan. Anda dapat menentukan nama internal dalam bahasa Inggris (seperti \"Wood Path\") atau ID item berkualifikasi (seperti \"(O)405\"), serta mencantumkan beberapa item dengan koma.", // note: connector names must be English even when playing in other languages
 
     // Junimo hut options
-    "config.title.junimo-huts": "Junimo hut behavior",
-    "config.junimo-hut-gems.name": "Gems",
-    "config.junimo-hut-gems.desc": "What Junimo huts should do with gemstone items. 'Auto-detect' will ignore them.",
-    "config.junimo-hut-fertilizer.name": "Fertilizer",
-    "config.junimo-hut-fertilizer.desc": "What Junimo huts should do with fertilizer items. 'Auto-detect' will ignore them if Better Junimos is installed, else move them from the hut into connected chests.",
-    "config.junimo-hut-seeds.name": "Seeds",
-    "config.junimo-hut-seeds.desc": "What Junimo huts should do with seed items. 'Auto-detect' will ignore them if Better Junimos is installed, else move them from the hut into connected chests.",
-    "config.junimo-hut-move-items-into-hut.name": "Move item IDs into hut",
-    "config.junimo-hut-move-items-into-hut.desc": "The items which should be moved into Junimo huts (regardless of other fields like {{gemFieldName}}). This is a comma-delimited list of qualified item IDs (as shown by the Lookup Anything mod in its 'internal ID' field).",
-    "config.junimo-hut-ignore-items.name": "Ignore item IDs",
-    "config.junimo-hut-ignore-items.desc": "The items which should be ignored (not moved regardless of other fields like {{gemFieldName}}). This is a comma-delimited list of qualified item IDs (as shown by the Lookup Anything mod in its 'internal ID' field).",
+    "config.title.junimo-huts": "Perilaku gubuk Junimo",
+    "config.junimo-hut-gems.name": "Permata",
+    "config.junimo-hut-gems.desc": "Apa yang harus dilakukan gubuk Junimo terhadap item permata. 'Deteksi otomatis' akan mengabaikannya.",
+    "config.junimo-hut-fertilizer.name": "Pupuk",
+    "config.junimo-hut-fertilizer.desc": "Apa yang harus dilakukan gubuk Junimo terhadap item pupuk. 'Deteksi otomatis' akan mengabaikannya jika Better Junimos terinstal, jika tidak, item tersebut akan dipindahkan dari gubuk ke peti yang terhubung.",
+    "config.junimo-hut-seeds.name": "Benih",
+    "config.junimo-hut-seeds.desc": "Apa yang harus dilakukan gubuk Junimo terhadap item benih. 'Deteksi otomatis' akan mengabaikannya jika Better Junimos terinstal, jika tidak, item tersebut akan dipindahkan dari gubuk ke peti yang terhubung.",
+    "config.junimo-hut-move-items-into-hut.name": "Pindahkan ID item-item ke dalam gubuk",
+    "config.junimo-hut-move-items-into-hut.desc": "Item yang harus dipindahkan ke dalam gubuk Junimo (terlepas dari bidang lain seperti {{gemFieldName}}). Ini adalah daftar ID item-item berkualifikasi yang dipisahkan dengan koma (seperti yang ditampilkan oleh mod Lookup Anything pada bidang 'internal ID').",
+    "config.junimo-hut-ignore-items.name": "Abaikan ID item",
+    "config.junimo-hut-ignore-items.desc": "Item yang harus diabaikan (tidak dipindahkan terlepas dari bidang lain seperti {{gemFieldName}}). Ini adalah daftar ID item-item berkualifikasi yang dipisahkan dengan koma (seperti yang ditampilkan oleh mod Lookup Anything pada bidang 'internal ID').",
 
     // Junimo hut dropdown values
-    "config.junimo-huts.auto-detect": "Auto-detect",
-    "config.junimo-huts.ignore": "Ignore them",
-    "config.junimo-huts.move-into-chests": "Move from Junimo huts into chests",
-    "config.junimo-huts.move-into-huts": "Move from chests into Junimo huts",
+    "config.junimo-huts.auto-detect": "Deteksi otomatis",
+    "config.junimo-huts.ignore": "Abaikan",
+    "config.junimo-huts.move-into-chests": "Pindahkan dari gubuk Junimo ke peti",
+    "config.junimo-huts.move-into-huts": "Pindahkan dari peti ke gubuk Junimo",
 
     // per-chest settings
-    "config.title.chest-settings": "Chest settings",
-    "config.default-chest-override.name": "Default behavior",
-    "config.default-chest-override.desc": "Whether chests should be enabled or disabled by default (except those you set below). Enabled chests will automate connected machines, while disabled ones are ignored entirely.",
+    "config.title.chest-settings": "Pengaturan peti",
+    "config.default-chest-override.name": "Perilaku default",
+    "config.default-chest-override.desc": "Apakah peti harus diaktifkan atau dinonaktifkan secara default (kecuali peti yang Anda atur di bawah). Peti yang diaktifkan akan mengotomatisasi mesin yang terhubung, sedangkan peti yang dinonaktifkan akan sepenuhnya diabaikan.",
     "config.chest-override.name": "{{chestName}}",
-    "config.chest-override.name.take-only": "{{chestName}} (take items only)",
-    "config.chest-override.desc": "Whether placed {{chestName}} items should be enabled as chests. See the tooltip on '{{defaultBehaviorField}}'.",
-    "config.chest-override.desc.take-only": "{{description}} (When enabled, this chest type only allows taking items out of the chest.)", // {{description}} contains the previous translation line
+    "config.chest-override.name.take-only": "{{chestName}} (hanya mengambil item)",
+    "config.chest-override.desc": "Apakah item {{chestName}} yang ditempatkan harus diaktifkan sebagai peti. Lihat tooltip pada '{{defaultBehaviorField}}'.",
+    "config.chest-override.desc.take-only": "{{description}} (Jika diaktifkan, jenis peti ini hanya memungkinkan Anda mengambil item dari dalam peti.)", // {{description}} contains the previous translation line
     "config.chest-override.values.default": "Default",
-    "config.chest-override.values.enabled": "Enable",
-    "config.chest-override.values.disabled": "Disable",
+    "config.chest-override.values.enabled": "Aktifkan",
+    "config.chest-override.values.disabled": "Nonaktifkan",
 
     // per-machine settings
-    "config.title.machine-settings": "{{machineName}} settings",
-    "config.machine-settings-enabled.name": "Enabled",
-    "config.machine-settings-enabled.desc": "Whether to enable {{machineName}} automation.",
-    "config.machine-settings-priority.name": "Priority",
-    "config.machine-settings-priority.desc": "The priority order in which {{machineName}} machines should be processed relative to other machines. Machines have a default priority of 0, with higher values processed first.",
+    "config.title.machine-settings": "Pengaturan {{machineName}}",
+    "config.machine-settings-enabled.name": "Diaktifkan",
+    "config.machine-settings-enabled.desc": "Apakah otomatisasi {{machineName}} harus diaktifkan.",
+    "config.machine-settings-priority.name": "Prioritas",
+    "config.machine-settings-priority.desc": "Urutan prioritas pemrosesan mesin {{machineName}} dibandingkan dengan mesin lainnya. Mesin memiliki prioritas default 0, nilai yang lebih tinggi akan diproses lebih dahulu.",
 
     // machine names
-    "config.machines.bush": "Bush",
-    "config.machines.fruit-tree": "Tree (Fruit Tree)",
-    "config.machines.trash-can": "Trash Can",
-    "config.machines.wild-tree": "Tree (Wild Tree)",
-    "config.machines.feed-hopper": "Hay Hopper and Silo",
+    "config.machines.bush": "Semak",
+    "config.machines.fruit-tree": "Pohon (Pohon Buah)",
+    "config.machines.trash-can": "Tempat Sampah",
+    "config.machines.wild-tree": "Pohon (Pohon Liar)",
+    "config.machines.feed-hopper": "Wadah Hopper dan Silo",
 
     // special settings for individual machines
-    "config.machines.wild-tree.collect-moss.name": "Collect Moss",
-    "config.machines.wild-tree.collect-moss.desc": "Whether to collect moss on trees. For example, keeping moss on trees will boost the quality of mushrooms from nearby mushroom logs."
+    "config.machines.wild-tree.collect-moss.name": "Kumpulkan Lumut",
+    "config.machines.wild-tree.collect-moss.desc": "Apakah lumut pada pohon akan dikumpulkan. Misalnya, membiarkan lumut pada pohon akan meningkatkan kualitas jamur dari batang jamur di dekatnya.",
 }
