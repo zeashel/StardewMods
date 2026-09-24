@@ -8,18 +8,18 @@
     "config.enabled.desc": "Apakah fitur Automate diaktifkan. Jika dinonaktifkan, tidak ada mesin yang akan diotomatisasi dan overlay tidak akan muncul.",
     "config.automation-interval.name": "Interval otomatisasi",
     "config.automation-interval.desc": "Jumlah tick di antara setiap proses otomatisasi (60 untuk sekali per detik, 120 untuk setiap dua detik, dst).",
-    "config.min-minutes-for-fairy-dust.name": "Menit minimum untuk debu fairy",
+    "config.min-minutes-for-fairy-dust.name": "Menit minimum debu fairy",
     "config.min-minutes-for-fairy-dust.desc": "Waktu pemrosesan mesin minimum dalam menit untuk mengaplikasikan debu fairy. Misalnya, jika diatur ke 30 menit, debu fairy tidak akan diaplikasikan jika mesin selesai dalam 20 menit tanpa debu tersebut.",
-    "config.toggle-overlay-key.name": "Tombol untuk mengaktifkan/menonaktifkan overlay",
+    "config.toggle-overlay-key.name": "Tombol toggle overlay",
     "config.toggle-overlay-key.desc": "Tombol yang digunakan untuk mengaktifkan atau menonaktifkan overlay otomatisasi.",
-    "config.warn-for-missing-bridge-mod.name": "Peringatkan jika mod penghubung tidak ada",
-    "config.warn-for-missing-bridge-mod.desc": "Apakah peringatan log saat memulai jika Anda memasang mod mesin khusus yang memerlukan patch kompatibilitas terpisah yang belum terinstal.",
+    "config.warn-for-missing-bridge-mod.name": "Ingatan mod penghubung kurang",
+    "config.warn-for-missing-bridge-mod.desc": "Apakah peringatan log saat memulai jika Anda instal mod mesin khusus yang memerlukan patch kompatibilitas terpisah yang belum terinstal.",
 
     // connectors
     "config.title.connectors": "Penghubung yang diaktifkan",
     "config.connector.desc": "Apakah {{itemName}} menghubungkan mesin dan peti.",
     "config.custom-connectors.name": "Penghubung khusus",
-    "config.custom-connectors.desc": "Item yang menghubungkan mesin yang berdekatan. Anda dapat menentukan nama internal dalam bahasa Inggris (seperti \"Wood Path\") atau ID item berkualifikasi (seperti \"(O)405\"), serta mencantumkan beberapa item dengan koma.", // note: connector names must be English even when playing in other languages
+    "config.custom-connectors.desc": "Item yang menghubungkan mesin yang berdekatan. Anda dapat menentukan nama internal dalam bahasa Inggris (seperti \"Wood Path\") atau ID item berkualifikasi (seperti \"(O)405\"), serta pisahkan lebih dari satu item dengan koma.", // note: connector names must be English even when playing in other languages
 
     // Junimo hut options
     "config.title.junimo-huts": "Perilaku gubuk Junimo",
@@ -29,7 +29,7 @@
     "config.junimo-hut-fertilizer.desc": "Apa yang harus dilakukan gubuk Junimo terhadap item pupuk. 'Deteksi otomatis' akan mengabaikannya jika Better Junimos terinstal, jika tidak, item tersebut akan dipindahkan dari gubuk ke peti yang terhubung.",
     "config.junimo-hut-seeds.name": "Benih",
     "config.junimo-hut-seeds.desc": "Apa yang harus dilakukan gubuk Junimo terhadap item benih. 'Deteksi otomatis' akan mengabaikannya jika Better Junimos terinstal, jika tidak, item tersebut akan dipindahkan dari gubuk ke peti yang terhubung.",
-    "config.junimo-hut-move-items-into-hut.name": "Pindahkan ID item-item ke dalam gubuk",
+    "config.junimo-hut-move-items-into-hut.name": "Pindahkan ID item ke gubuk",
     "config.junimo-hut-move-items-into-hut.desc": "Item yang harus dipindahkan ke dalam gubuk Junimo (terlepas dari bidang lain seperti {{gemFieldName}}). Ini adalah daftar ID item-item berkualifikasi yang dipisahkan dengan koma (seperti yang ditampilkan oleh mod Lookup Anything pada bidang 'internal ID').",
     "config.junimo-hut-ignore-items.name": "Abaikan ID item",
     "config.junimo-hut-ignore-items.desc": "Item yang harus diabaikan (tidak dipindahkan terlepas dari bidang lain seperti {{gemFieldName}}). Ini adalah daftar ID item-item berkualifikasi yang dipisahkan dengan koma (seperti yang ditampilkan oleh mod Lookup Anything pada bidang 'internal ID').",
